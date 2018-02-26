@@ -158,8 +158,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComputedFields\AllTemplatesIndexField.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Models\BaseSearchResultItem.cs" />
+    <Compile Include="Models\SearchCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ISearchService.cs" />
+    <Compile Include="Services\SearchService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -177,7 +181,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Models\code\Helixbase.Foundation.Models.csproj">
+      <Project>{3227661f-a60d-486f-a904-14baf0eb991e}</Project>
+      <Name>Helixbase.Foundation.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
