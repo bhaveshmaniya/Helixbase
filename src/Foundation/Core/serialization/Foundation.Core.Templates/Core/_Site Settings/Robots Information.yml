@@ -1,0 +1,18 @@
+﻿---
+ID: "c222a509-7bb2-4d5e-8589-9b8584f930c9"
+Parent: "52185162-e7b7-4d36-b8ce-038f5f6fc49d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Core/_Site Settings/Robots Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180226T123340Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

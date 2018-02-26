@@ -75,6 +75,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Foundation.Core.Serialization.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Localhost.pubxml">
       <SubType>Designer</SubType>

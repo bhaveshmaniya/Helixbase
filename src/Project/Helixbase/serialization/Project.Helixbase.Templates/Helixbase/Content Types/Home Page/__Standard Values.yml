@@ -1,0 +1,24 @@
+﻿---
+ID: "8e8de724-3ff6-4c65-842d-e68809825e64"
+Parent: "de87e93d-ce85-44d2-b41d-cb81b34e128a"
+Template: "de87e93d-ce85-44d2-b41d-cb81b34e128a"
+Path: /sitecore/templates/Project/Helixbase/Content Types/Home Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CD1590E1-6573-4CC7-B0A9-E3BB6A9DADE4}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180226T130113Z

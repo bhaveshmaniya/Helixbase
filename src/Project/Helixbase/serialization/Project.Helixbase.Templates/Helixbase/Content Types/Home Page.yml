@@ -1,22 +1,22 @@
 ﻿---
-ID: "98a3d034-92e4-4ecb-9632-119cabd08e15"
-Parent: "3ab26534-592c-450e-929d-b7dc884b49a0"
+ID: "de87e93d-ce85-44d2-b41d-cb81b34e128a"
+Parent: "e9bb794a-b514-4ff5-8386-008fda7f7f66"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Common/Content Types/Site Root
+Path: /sitecore/templates/Project/Helixbase/Content Types/Home Page
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/32x32/window_earth.png
+  Value: Network/32x32/home.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: |
     {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {52185162-E7B7-4D36-B8CE-038F5F6FC49D}
+    {7D224925-E5ED-409A-83EF-0E97743CDAC2}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{F9697D76-B9BC-4258-8FC9-1C33CC287BE6}"
+  Value: "{8E8DE724-3FF6-4C65-842D-E68809825E64}"
 Languages:
 - Language: en
   Versions:
@@ -24,4 +24,8 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170212T144341Z
+      Value: 20180226T125843Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
